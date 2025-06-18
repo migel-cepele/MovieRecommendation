@@ -1,9 +1,9 @@
 ﻿# Movie Recommendation Description  
 The repository has the final project of my AI course in UPT for the AI master's. The files of the project and their descriptions are listed below.  
 **The thing is** : based on some data of some movies that I got from Kaggle, this model should recommend some movies for a user of the dataset, based on the preferences of some other similar users, the user preferences and the clusters of similar movies. The dataset is relatively large, but I have filtered only users who have rated more than 50 movies and movies who are watched by more than 10 users. Each method of the recommendation above is done in a separate file,  
-for collaborative filtering: The movies are recommended based on the preferences of the similar users  
-for content filtering: The movies are recommended based on the previous genres of the movies that the user has seen
-and for cluster filtering: The movies are separated in clusters of similar movies and the recommended movies will be part of the same cluster. This method becomes more effective when the number of clusters keeps increasing.  
+**for collaborative filtering**: The movies are recommended based on the preferences of the similar users  
+**for content filtering**: The movies are recommended based on the previous genres of the movies that the user has seen, and  
+**for cluster filtering**: The movies are separated in clusters of similar movies and the recommended movies will be part of the same cluster. This method becomes more effective when the number of clusters keeps increasing.  
 
 **1. collaborativeBased.py**  
 
